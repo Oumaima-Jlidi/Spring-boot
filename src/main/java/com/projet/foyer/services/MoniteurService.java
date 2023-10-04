@@ -3,9 +3,11 @@ package com.projet.foyer.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.projet.foyer.Repositories.MoniteurRepository;
 import com.projet.foyer.entities.Moniteur;
+@Service
 
 public class MoniteurService  implements MoniteurServiceImpl{
 	@Autowired

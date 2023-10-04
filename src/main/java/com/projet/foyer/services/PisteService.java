@@ -3,10 +3,11 @@ package com.projet.foyer.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.projet.foyer.Repositories.PisteRepository;
 import com.projet.foyer.entities.Piste;
-
+@Service
 public class PisteService  implements PisteServiceImpl{
 	@Autowired
     private PisteRepository pisteRepository;

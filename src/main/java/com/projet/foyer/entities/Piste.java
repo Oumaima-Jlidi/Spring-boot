@@ -59,5 +59,11 @@ public int getPente() {
 public void setPente(int pente) {
 	this.pente = pente;
 }
+public Set<Skieur> getSkieur() {
+	return skieur;
+}
+public void setSkieur(Set<Skieur> skieur) {
+	this.skieur = skieur;
+}
 
 }
